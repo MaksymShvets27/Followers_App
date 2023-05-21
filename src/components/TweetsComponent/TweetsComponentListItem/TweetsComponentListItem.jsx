@@ -38,8 +38,8 @@ export const TweetsComponentsListItem = ({ itemInfo }) => {
   console.log(itemInfo);
   return (
     <ListItemCardStyled>
-      <CardLogoImage src="../../../../public/card_logo.svg" />
-      <CardImage src="../../../../public/card_svg.svg" />
+      <CardLogoImage src="/card_logo.svg" />
+      <CardImage src="/card_svg.svg" />
       <ListItemCardAvatar
         style={{ backgroundImage: `url(${itemInfo.avatar})` }}
       />
