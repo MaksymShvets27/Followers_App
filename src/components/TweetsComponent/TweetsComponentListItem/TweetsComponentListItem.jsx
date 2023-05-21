@@ -35,7 +35,6 @@ export const TweetsComponentsListItem = ({ itemInfo }) => {
     }
     setFollow((prevState) => !prevState);
   };
-  console.log(itemInfo);
   return (
     <ListItemCardStyled>
       <CardLogoImage src="/card_logo.svg" />
