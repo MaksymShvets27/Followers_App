@@ -14,8 +14,7 @@ export const TweetsComponentList = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(tweetsAsyncThunk(page));
-    console.log(tweets);
-  }, [dispatch, page, tweets]);
+  }, [dispatch, page]);
   return (
     <>
       {tweets ? (
