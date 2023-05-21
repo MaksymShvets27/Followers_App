@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://maksymshvets27.github.io/followers-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
