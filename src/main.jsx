@@ -4,11 +4,14 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./redux/store.js";
+import React from "react";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="followers-app">
-    <Provider store={store}>
-      <App />
-    </Provider>
-  </BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter basename="followers-app">
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </BrowserRouter>
+  </React.StrictMode>
 );
