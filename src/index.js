@@ -7,11 +7,9 @@ import { Provider } from "react-redux";
 import { store } from "./redux/store.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <BrowserRouter basename="followers-app">
     <Provider store={store}>
-      <BrowserRouter basename="followers-app">
-        <App />
-      </BrowserRouter>
+      <App />
     </Provider>
-  </React.StrictMode>
+  </BrowserRouter>
 );
